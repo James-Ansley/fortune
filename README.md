@@ -1,4 +1,4 @@
-# Python Cowsay
+# Python Fortune
 
 A simple self-contained clone of fortune. Try it out
 with [cowsay](https://github.com/James-Ansley/cowsay)!
