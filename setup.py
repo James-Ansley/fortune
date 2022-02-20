@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='fortune-python',
-    version='1.0.1',
+    version='1.0.2',
     author='James Finnie-Ansley',
     description='A Cowsay clone in Python',
     long_description=long_description,
