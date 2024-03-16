@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fortune-python"
+version = "1.1.0"
+description = "A Fortune clone in Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = ["fortune"]
+authors = [{ name = "James Finnie-Ansley" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Utilities",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+repository = "https://github.com/James-Ansley/fortune"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"*" = ["datfiles/**"]
+
+[project.scripts]
+fortune = "fortune:__main__.fortune"

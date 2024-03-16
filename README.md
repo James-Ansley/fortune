@@ -9,6 +9,19 @@ with [cowsay](https://github.com/James-Ansley/cowsay)!
 
 ## Usage
 
+### CLI
+
+Currently, a `fortune` command line program is added on install.
+
+```
+fortune
+```
+
+This will select a random fortune. Adding the fortune command line arguments
+is planned later.
+
+### Programmatic
+
 To use this package, import the `fortune` function and call:
 
 ```python
