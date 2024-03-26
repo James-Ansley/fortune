@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fortune-python"
-version = "1.1.0"
+version = "1.1.1"
 description = "A Fortune clone in Python"
 readme = "README.md"
 requires-python = ">=3.8"
