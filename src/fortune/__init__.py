@@ -16,7 +16,7 @@ def fortune():
     paths = _get_files()
     fortunes = []
     for path in paths:
-        with open(path, 'r') as f:
+        with open(path, 'r', encoding='utf-8', errors='ignore') as f:
             text = re.split(r'[\n|\r\n]%[\n|\r\n]', f.read())
         text = [fortune for fortune in text if fortune.strip('\n\r')]
         fortunes += text
