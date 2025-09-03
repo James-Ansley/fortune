@@ -4,26 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fortune-python"
-version = "1.1.1"
+version = "1.1.2"
 description = "A Fortune clone in Python"
 readme = "README.md"
 requires-python = ">=3.8"
-license = { file = "LICENSE" }
+license = "Apache-2.0"
 keywords = ["fortune"]
 authors = [{ name = "James Finnie-Ansley" }]
-classifiers = [
-    "Development Status :: 5 - Production/Stable",
-    "Topic :: Utilities",
-    "Intended Audience :: Developers",
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-]
 
 [project.urls]
-repository = "https://github.com/James-Ansley/fortune"
-
-[tool.setuptools.packages.find]
-where = ["src"]
+repository = "https://codeberg.org/jamesansley/fortune"
 
 [tool.setuptools]
 include-package-data = true

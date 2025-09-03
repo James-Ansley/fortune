@@ -1,7 +1,11 @@
 # Python Fortune
 
+[![Repository](https://img.shields.io/badge/jamesansley%2Ffortune-102335?logo=codeberg&labelColor=07121A)](https://codeberg.org/jamesansley/fortune)
+[![PyPi](https://img.shields.io/pypi/v/fortune-python?label=PyPi&labelColor=%23ffd343&color=%230073b7)](https://pypi.org/project/fortune-python/)
+[![License](https://img.shields.io/badge/Apache--2.0-002d00?label=license)](https://codeberg.org/jamesansley/fortune/src/branch/main/LICENSE)
+
 A simple self-contained clone of fortune. Try it out
-with [cowsay](https://github.com/James-Ansley/cowsay)!
+with [cowsay](https://codeberg.org/jamesansley/cowsay)!
 
 ## Install
 
